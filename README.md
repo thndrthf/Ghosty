@@ -188,8 +188,6 @@ if text.startswith("/yourcommand"):
 ---
 
 ## 👤 Author
-
-Luke Deenihan  
 Tidewater Studios / THNDRTHF
 
 ---
