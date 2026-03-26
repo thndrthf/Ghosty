@@ -212,3 +212,33 @@ GO TO PRIVACY AND SECURITY AND CLICK "OPEN ANYWAY":
 
 <img width="475" height="181" alt="Screenshot 2026-03-23 at 10 12 13 AM" src="https://github.com/user-attachments/assets/05d09187-3bd3-4212-9ea9-70e5c99ca1f7" />
 
+
+
+<div style="
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 259px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+  ">
+  <div style="padding: 20px;">
+    <a target="_blank" href="https://square.link/u/us6Sb5ce?src=embed" style="
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #006aff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    border-radius: 6px;
+  ">Buy now</a>
+  </div>
+</div>
