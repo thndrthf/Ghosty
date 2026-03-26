@@ -1,2 +1,198 @@
-# Ghosty
-Ghosty is a floating, always-on-top desktop AI assistant powered by local LLMs for real-time interaction, personality, and persistent presence. This is not just a chatbot — it’s a desktop entity.
+# 👻 Ghosty — Desktop AI Assistant
+
+Ghosty is a floating, always-on-top desktop AI assistant powered by local LLMs (Ollama), built with PySide6 and designed for real-time interaction, personality, and persistent presence.
+
+This is not just a chatbot — it’s a desktop entity.
+
+<img width="855" height="533" alt="Screenshot 2026-03-26 at 11 22 09 AM" src="https://github.com/user-attachments/assets/8642e5b8-8cf7-473f-b343-ddcdcc875356" />
+
+---
+## ✨ Core Features
+
+- Animated ghost sprite (procedural, no external assets)
+- Always-on-top overlay (macOS native window level control)
+- Local LLM integration via Ollama
+- Streaming responses (real-time typing)
+- Floating speech bubble UI
+- Frosted-glass input bar with shimmer animation
+- Reminder + inactivity behavior system
+- Native macOS-style settings panel
+- Fully self-contained runtime
+
+---
+
+## 🧠 Architecture
+
+GhostApp (controller)
+├── GhostOverlay (sprite + animation + window control)
+├── BubbleOverlay (speech UI)
+├── InputOverlay (input UI)
+├── LLMWorker (threaded Ollama client)
+├── SettingsDialog (config UI)
+└── GhostStats (XP system)
+
+---
+
+## ⚙️ Requirements
+
+pip install PySide6 Pillow requests
+
+Optional:
+pip install pynput
+
+---
+
+## 🚀 Run
+
+python agentGHOSTX4final.py
+
+Ghost will:
+- auto-launch Ollama (if installed)
+- generate sprite assets
+- appear as a floating overlay
+
+---
+
+## 🧠 LLM Integration
+
+Uses:
+POST /api/generate
+
+Supports:
+- streaming responses
+- temperature control
+- token limits
+- system prompt injection
+
+Default model:
+qwen2.5:latest
+
+Quick-start model:
+qwen3:0.6b (~500MB)
+
+---
+
+## 🖥 macOS Behavior
+
+Ghost uses native NSWindow controls:
+
+- setLevel(1000)
+- orderFrontRegardless
+- setHidesOnDeactivate(False)
+
+This ensures:
+- always visible
+- above fullscreen apps
+- persists across spaces
+
+---
+
+## 🎮 Interaction
+
+Type naturally in the input bar.
+
+Examples:
+hello
+tell me something weird
+/boo
+
+---
+
+## 👻 Behavior System
+
+BOO logic:
+- /boo → immediate
+- inactivity → only when app inactive
+- never interrupts responses
+
+---
+
+## 🎬 Animation System
+
+- Procedural sprite generation (Pillow)
+- Idle + directional movement
+- Bobbing + tilt physics
+- Smooth shrink-to-corner
+- 60 FPS UI loop
+
+---
+
+## 🧊 UI Design
+
+Input Overlay:
+- frosted glass effect
+- animated shimmer
+- custom Qt rendering
+
+Bubble Overlay:
+- auto-wrap text
+- click to dismiss
+- anchored to ghost
+
+---
+
+## ⚙️ Settings
+
+Saved to:
+ghost_settings.json
+
+Includes:
+- LLM config
+- opacity controls
+- always-on-top toggle
+- BOO behavior
+- shrink behavior
+
+---
+
+## 📁 Runtime Files
+
+ghost_settings.json
+ghost_assets/
+
+Fully portable — no external dependencies beyond Python libs.
+
+---
+
+## 🧩 Extending Ghost
+
+Add commands in controller:
+
+if text.startswith("/yourcommand"):
+    ...
+
+---
+
+## ⚠️ Known Issues
+
+- Ollama must be installed locally
+- Large models may slow responses
+- macOS window layering depends on OS behavior
+
+---
+
+## 🔮 Roadmap
+
+- voice input (speech-to-text)
+- plugin system
+- persistent memory
+- multi-agent modes
+- mobile companion
+
+---
+
+## 👤 Author
+
+Luke Deenihan  
+Tidewater Studios / THNDRTHF
+
+---
+
+## 💡 Philosophy
+
+Ghost is:
+- local-first
+- always present
+- lightweight but expressive
+
+This is the foundation of a desktop agent system.
