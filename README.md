@@ -4,7 +4,7 @@ Ghosty is a floating, always-on-top desktop AI assistant powered by local LLMs (
 
 This is not just a chatbot — it’s a desktop entity.
 
-<img width="855" height="533" alt="Screenshot 2026-03-26 at 11 34 30 AM" src="https://github.com/user-attachments/assets/72c86ae7-885b-444b-9397-c9c17c35e196" />
+<img width="855" height="533" alt="Screenshot 2026-03-26 at 11 35 23 AM" src="https://github.com/user-attachments/assets/0913c29a-43f2-4e12-bdd2-e4173a022563" />
 
 ---
 ## ✨ Core Features
