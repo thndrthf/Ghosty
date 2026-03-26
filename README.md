@@ -201,8 +201,11 @@ Ghost is:
 
 This is the foundation of a desktop agent system.
 
-IF YOU GET A "NOT OPENED" / WARNING MESSAGE
+IF YOU GET A "NOT OPENED" / WARNING MESSAGE:
+
 <img width="276" height="299" alt="Screenshot 2026-03-23 at 10 12 00 AM" src="https://github.com/user-attachments/assets/3af5decd-29b5-4598-a8fe-18f6b086e07c" />
-GO TO PRIVACY AND SECURITY AND CLICK "OPEN ANYWAY"
+
+GO TO PRIVACY AND SECURITY AND CLICK "OPEN ANYWAY":
+
 <img width="475" height="181" alt="Screenshot 2026-03-23 at 10 12 13 AM" src="https://github.com/user-attachments/assets/05d09187-3bd3-4212-9ea9-70e5c99ca1f7" />
 
