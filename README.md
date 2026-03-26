@@ -24,11 +24,17 @@ This is not just a chatbot — it’s a desktop entity.
 ## 🧠 Architecture
 
 GhostApp (controller)
+
 ├── GhostOverlay (sprite + animation + window control)
+
 ├── BubbleOverlay (speech UI)
+
 ├── InputOverlay (input UI)
+
 ├── LLMWorker (threaded Ollama client)
+
 ├── SettingsDialog (config UI)
+
 └── GhostStats (XP system)
 
 ---
