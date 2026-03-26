@@ -201,6 +201,9 @@ Ghost is:
 
 This is the foundation of a desktop agent system.
 
+QUICK ERROR FIXES: 
+Open settings and set your model and save. qwen3:0.6b is an easy choice, but feel free to experiment. It seems to work with other models well. 
+
 IF YOU GET A "NOT OPENED" / WARNING MESSAGE:
 
 <img width="276" height="299" alt="Screenshot 2026-03-23 at 10 12 00 AM" src="https://github.com/user-attachments/assets/3af5decd-29b5-4598-a8fe-18f6b086e07c" />
